@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,300&family=Poppins:wght@300;400;500;600&display=swap'); 
+
 *{
   margin:0px;
   padding:0px;
   font-family:'Noto Sans', sans-serif;
   /*font-family:'Poppins', sans-serif;*/
-
 }
+
 nav{
   display:flex;
   align-items:center;
@@ -14,13 +15,16 @@ nav{
   color:white;
   padding:19px 12px;
 }
+
 ul{
   display:flex;
   
 }  
+
 .container h1{
   padding:12px 0px;
 }
+
 input[type='text']{
     min-width: 23vw;
     padding: 3px 12px;
@@ -28,6 +32,7 @@ input[type='text']{
     border-radius: 4px;
     font-size: 20px;
 }
+
 .btn{
   background-color:black;
   color:white;
@@ -36,34 +41,42 @@ input[type='text']{
   border-radius:6px;
   cursor:pointer;  
 }
+
 .logo img{
   width:15px;
   filter:invert(1);
 }
+
 ul li{
   list-style:none;
   padding: 0 13px;
   font-size:13;
 }
+
 ul > li > a{
   text-decoration:none;
   color:white;
 }
+
 ul > li > a:hover{
   color:gray;
 }
+
 main{
   min-height:90vh;
   padding:2px;
 }
+
 #resultCont div::first-letter{
   text-transform:uppercase;
 }
+
 .container{ 
   max-width:80vw;
   margin:auto;
   padding:15px;
 }
+
 footer{
   background-color:black;
   color:white;
