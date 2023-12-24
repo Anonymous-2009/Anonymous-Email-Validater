@@ -1,7 +1,8 @@
 
 
-submitBtn.addEventListener("click", async (e) => {
-    e.preventDefault()
+submitBtn.addEventListener("click", async (event) => {
+    event.preventDefault();
+    event.stopPropagation();
     console.log("Clicked!")
     resultCont.innerHTML = `<img width="123" src="img/loading.svg" alt="">`
     let key = "60d04e1b23d64c9fabcbffdd4c03b84d"
