@@ -17,6 +17,21 @@ nav{
 ul{
   display:flex;
   
+}  
+.container h1{
+  padding:12px 0px;
+}
+.btn{
+  background-color:black;
+  color:white;
+  padding:9px 12px;
+  border:1px solid gray;
+  border-radius:6px;
+  cursor:pointer;  
+}
+.logo img{
+  width:15px;
+  filter:invert(1);
 }
 ul li{
   list-style:none;
@@ -31,7 +46,13 @@ ul > li > a:hover{
   color:gray;
 }
 main{
-  min-height:90vh; 
+  min-height:90vh;
+  padding:2px;
+}
+.container{ 
+  max-width:80vw;
+  margin:auto;
+  padding:15px;
 }
 footer{
   background-color:black;

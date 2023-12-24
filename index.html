@@ -6,12 +6,15 @@
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
   <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/responsive.css" tel="stylesheet" type="text/css" />
 </head>
 
 <body>
   <header>
     <nav>
-      <div class="logo">Ivalidate</div>
+      <div class="logo">
+      <img src="img/email.svg" alt="logo"/> <span> Ivalidate </span>
+      </div>
       <ul>
       <li><a href="/">Home</a></li>
    <li><a href="/"> About</a> </li>
@@ -20,7 +23,17 @@
     </nav>
   </header>
   <main>
-    maini
+   <div class="container">
+     <h1> Enter your email to validate </h1>
+               <form action="/submit" method="post">
+                <!-- Input Filed to Validate Email Address --> 
+                <input placeholder="Enter your email to validate" type="text" id="username" name="username" required>
+                <br><br>
+                <!-- Submit button -->
+                <input id="submitBtn" class="btn" type="submit" value="Submit">
+               </form>
+
+   </div>
   </main>
   <footer>
  copyright | Ivalidate.com | All Right Reserved 
