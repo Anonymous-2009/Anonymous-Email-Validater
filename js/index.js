@@ -1,6 +1,6 @@
 let submit = document.getElementById('submit-button'); 
 
-let div = document.getElementsByClassName('resultCont');
+let div = document.getElementById('resultCont');
 
  submit.addEventListener("click", async (event) => {
     event.preventDefault();
